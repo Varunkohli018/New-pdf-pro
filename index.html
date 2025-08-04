@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PDF Toolkit</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-container">
+    <h1>📄 PDF Toolkit</h1>
+
+    <div class="buttons">
+      <button onclick="selectFeature('textToPDF')">Text to PDF</button>
+      <button onclick="selectFeature('imageToPDF')">Image to PDF</button>
+      <button onclick="selectFeature('mergePDF')">Merge PDFs</button>
+      <button onclick="selectFeature('editPDF')">Edit PDF</button>
+      <button onclick="selectFeature('createPDF')">Create PDF</button>
+    </div>
+
+    <div id="featureContainer">
+      <p>Select a feature to begin.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
